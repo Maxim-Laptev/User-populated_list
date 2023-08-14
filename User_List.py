@@ -1,7 +1,7 @@
 length=int(input("Enter the length of your list: "))
 list=[]
 num=0
-question=input("Which sheet do you need? (int,float,string): ")
+question=input("Which list do you need? (int,float,string): ")
 if question=="Int" or question=="int":
     for i in range(length):
         string="Enter the element #"+str(num)+": "
